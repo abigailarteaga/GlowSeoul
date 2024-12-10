@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowSeoul - Bienvenida</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="logo">
+            <h1>GlowSeoul</h1>
+            <p>Korean Beauty</p>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="pages/DescubreGlow.html">Descubre Glow</a></li>
+                <li><a href="pages/CuidadodelaPiel.html">Cuidado de la Piel</a></li>
+                <li><a href="pages/Suplementos.html">Suplementos</a></li>
+                <li><a href="pages/NuestraEsencia.html">Nuestra Esencia</a></li>
+                <li><a href="pages/ContactoGlow.html">Contacto Glow</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+    <div class="iconos-header">
+        <a href="../pages/usuario.html" id="icono-login" title="Iniciar sesión">👤</a>
+        <a href="#" id="abrir-carrito" title="Carrito">🛒</a>
+    </div>
+    </header>
+    
+
+    <section class="vista_principal" style="background-image: url('images/inicio.png');">
+        <div class="vista_principal_capa">
+            <div class="vista_principal_texto">
+                <h2>GlowSeoul</h2>
+                <p>Tu tienda de belleza coreana</p>
+            </div>
+        </div>
+    </section>
+    <section class="best_sellers">
+        <div class="producto">
+            <div class="producto_nombre">
+                <span class="new_etiqueta">Nuevo</span>
+                <img 
+                    src="../images/CuidadodelaPiel/COSRX - Advanced Snail 96 Mucin Power Essence.png" 
+                    alt="COSRX - Advanced Snail 96 Mucin Power Essence" 
+                    class="producto-imagen"
+                    data-id="5"> <!-- ID del producto -->
+            </div>
+            <h3>COSRX Advanced Snail 96 Mucin Power Essence</h3>
+            <p class="precio">$24.99</p>
+            <label for="cantidad" class="cantidad_label">Cantidad:</label> <!-- Añade esta línea -->
+            <select id="cantidad" class="cantidad_producto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button class="añadir_carrito">Agregar al carrito</button>
+        </div>
+    
+        <div class="producto">
+            <div class="producto_nombre">
+                <span class="new_etiqueta">Nuevo</span>
+                <img 
+                    src="../images/CuidadodelaPiel/beauty of Joseon Sun Stick.png" 
+                    alt="Beauty of Joseon Sun Stick" 
+                    class="producto-imagen"
+                    data-id="4"> <!-- ID del producto -->
+            </div>
+            <h3>Beauty of Joseon Sun Stick</h3>
+            <p class="precio">$14.99</p>
+            <label for="cantidad" class="cantidad_label">Cantidad:</label> <!-- Añade esta línea -->
+            <select id="cantidad" class="cantidad_producto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button class="añadir_carrito">Agregar al carrito</button>
+        </div>
+    
+        <div class="producto">
+            <div class="producto_nombre">
+                <span class="new_etiqueta">Nuevo</span>
+                <img 
+                    src="../images/Suplementos/ARONIA VINEGAR Low Molecular Collagen Jelly.png" 
+                    alt="ARONIA VINEGAR Low Molecular Collagen Jelly" 
+                    class="producto-imagen"
+                    data-id="6"> <!-- ID del producto -->
+            </div>
+            <h3>Aronia Vinegar Low Molecular Collagen Jelly</h3>
+            <p class="precio">$15.99</p>
+            <label for="cantidad" class="cantidad_label">Cantidad:</label> <!-- Añade esta línea -->
+            <select id="cantidad" class="cantidad_producto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button class="añadir_carrito">Agregar al carrito</button>
+        </div>
+    </section>
+   
+    <div id="carrito-contenedor" class="carrito-lateral">
+        <div class="carrito-header">
+            <button id="cerrar-carrito" class="cerrar-carrito">X</button>
+            <h3>Tu carrito</h3>
+        </div>
+        <div class="carrito-items">
+            <p>Tu carrito está vacío...</p>
+        </div>
+        <div class="carrito-footer">
+            <p id="carrito-total">Total: $0.00</p>
+            <button id="realizar-pedido" class="boton-pedido">Hacer pedido</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer_contenedor">
+            <div class="footer_section">
+                <h3>Recibe promociones exclusivas</h3>
+                <p>¡Únete! Entérate antes que nadie sobre promociones y lanzamientos exclusivos.</p>
+                <form class="subscribirse">
+                    <input type="email" placeholder="Ingresa tu email aquí*" required>
+                    <button type="submit">Unirse</button>
+                </form>
+            </div>
+            
+            <div class="footer-section centered-contact">
+                <h3>Contacto:</h3>
+                <p>+593 99 582 5743</p>
+                <p>glowseoul@outlook.com</p>
+                <p>Quito, Ecuador</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active'); // Alterna la clase active
+        });
+    </script>
+     <script>
+        // Seleccionar todas las imágenes con la clase "producto-imagen"
+        const imagenes = document.querySelectorAll('.producto-imagen');
+    
+        // Agregar evento de clic a cada imagen
+        imagenes.forEach(imagen => {
+            imagen.addEventListener('click', function() {
+                const productoId = this.getAttribute('data-id'); // Obtener el ID del producto
+                window.location.href = `pages/detalleProducto.html?producto=${productoId}`; // Redirigir a la página de detalles
+            });
+        });
+    </script>
+    <script src="/js/carrito.js"></script>
+    <script src="../js/estilo.js"></script>
+
+</body>
+</html>

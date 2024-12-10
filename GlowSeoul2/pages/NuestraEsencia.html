@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowSeoul - Bienvenida</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="logo">
+            <h1>GlowSeoul</h1>
+            <p>Korean Beauty</p>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/DescubreGlow.html">Descubre Glow</a></li>
+                <li><a href="../pages/Suplementos.html">Suplementos</a></li>
+                <li><a href="../pages/CuidadodelaPiel.html">Cuidado de la Piel</a></li>
+                <li><a href="../pages/ContactoGlow.html">Contacto Glow</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+    <div class="iconos-header">
+        <a href="../pages/usuario.html" id="icono-login" title="Iniciar sesión">👤</a>
+        <a href="#" id="abrir-carrito" title="Carrito">🛒</a>
+    </div>
+    </header>
+
+    <section class="vista_principal" style="background-image: url('../images/NuestraEsencia/imagen.png');">
+        <div class="vista_principal_capa">
+            <div class="historia-container">
+                <h1>Historia de GlowSeoul</h1>
+                
+                <p>
+                    <br><br>GlowSeoul nace de la pasión por el skincare coreano, un enfoque holístico que busca resaltar la belleza natural de cada persona.
+                    Nuestro viaje comenzó en 2020, cuando un grupo de entusiastas de la belleza decidió compartir la efectividad y la innovación
+                    de los productos de cuidado de la piel de Corea del Sur con el mundo.
+                </p>
+                
+                <p>
+                    <br>Con cada producto, te invitamos a experimentar la magia del cuidado de la piel coreano y a descubrir el secreto para una piel radiante
+                    y saludable. ¡Únete a nosotros en este viaje hacia la belleza natural!
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="footer_contenedor">
+            <div class="footer_section">
+                <h3>Recibe promociones exclusivas</h3>
+                <p>¡Únete! Entérate antes que nadie sobre promociones y lanzamientos exclusivos.</p>
+                <form class="subscribirse">
+                    <input type="email" placeholder="Ingresa tu email aquí*" required>
+                    <button type="submit">Unirse</button>
+                </form>
+            </div>
+            
+            <div class="footer-section centered-contact">
+                <h3>Contacto:</h3>
+                <p>+593 99 582 5743</p>
+                <p>glowseoul@outlook.com</p>
+                <p>Quito, Ecuador</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active'); // Alterna la clase active
+        });
+    </script>
+    <script src="/js/carrito.js"></script>
+    <script src="../js/estilo.js"></script>
+</body>
+</html>

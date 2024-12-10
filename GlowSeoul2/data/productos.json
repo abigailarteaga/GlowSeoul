@@ -1,0 +1,78 @@
+{
+    "1": {
+      "nombre": "Anua Heartleaf",
+      "precioOriginal": "$19.99",
+      "descripcion": "El limpiador de aceite mas famoso de corea en la marca Anua, es ligero y no comedogénico más viral del momento, formulado con una mezcla de aceites vegetales nutritivos y extracto de heartleaf para limpiar suavemente la piel, eliminar el maquillaje y controlar la producción de sebo. Es adecuado para todo tipo de pieles, pero es especialmente bueno para las pieles grasas o propensas al acné. Si tienes puntos negros y ya no sabes cómo quitarlos, este aceite es tu nuevo mejor amigo, elimina el 18,88 % de puntos negros y el 20,09 % de puntos blancos.",
+      "imagenPrincipal": "../images/CuidadodelaPiel/Anua Heartleaf.png",
+      "imagenesSecundarias": [
+        "../images/CuidadodelaPiel/Anua Heartleaf1.png",
+        "../images/CuidadodelaPiel/Anua Heartleaf2.png"
+      ]
+    },
+    "2": {
+      "nombre": "Glow Serum Propolis",
+      "precioOriginal": "$25.50",
+      "descripcion": "Sérum con un 60% de propóleo y un 2% de niacinamida que minimiza la población de bacterias (acné) en la piel y despigmenta las manchas de la piel. El propóleo reduce el acné causado por bacterias y promueve la cicatrización de las heridas post-inflamatorias. La niacinamida, por su parte, es un derivado de la vitamina B3 que interrumpe el proceso natural de pigmentación de la piel y sus manchas. Además, contiene extracto de cinamomo (Chinaberry), un ingrediente popular en la medicina tradicional de la India por su particular propiedad de neutralizar los radicales libres más dañinos para el cuerpo y la piel.",
+      "imagenPrincipal": "../images/CuidadodelaPiel/GlowSerumPropolis.png",
+      "imagenesSecundarias": [
+        "../images/CuidadodelaPiel/GlowSerumPropolis1.png",
+        "../images/CuidadodelaPiel/GlowSerumPropolis2.png",
+        "../images/CuidadodelaPiel/GlowSerumPropolis3.png"
+      ]
+    },
+    "3": {
+      "nombre": "Beauty of Joseon Ginseng Essence",
+      "precioOriginal": "$19.99",
+      "descripcion": "Este tónico refrescante de esencia y esencia brinda una hidratación profunda con un 80% de agua de raíz de ginseng. Este ingrediente clave es rico en antioxidantes que combate el daño de agresores externos (radicales libres) que pueden causar envejecimiento prematuro. Promueve la circulación y la producción de colágeno para reducir la aparición de arrugas e iluminar la piel. El ginseng también es antiinflamatorio, lo que proporciona efectos calmantes. La niacinamida refuerza la barrera cutánea para lograr una mayor elasticidad. Es excelente para el control de la grasa y mejora la textura al reducir la apariencia de los poros con el tiempo con sus propiedades hidratantes. La adenosina actúa en conjunto para aliviar el enrojecimiento y la irritación y restaurar la piel. Energiza la superficie de la piel, ayudándola a lucir más suave y tersa, pH de 5,84. Formulado sin fragancias artificiales, parabenos, sulfatos, colorantes artificiales, productos animales, alcohol, aceites minerales, aceites esenciales o silicona.",
+      "imagenPrincipal": "../images/CuidadodelaPiel/Beauty of Joseon Ginseng Essence.png",
+      "imagenesSecundarias": [
+        "../images/CuidadodelaPiel/Beauty of Joseon Ginseng Essence1.png",
+        "../images/CuidadodelaPiel/Beauty of Joseon Ginseng Essence2.png",
+        "../images/CuidadodelaPiel/Beauty of Joseon Ginseng Essence3.png"
+      ]
+    },
+    "4": {
+        "nombre": "Beauty of Joseon Sun Stick",
+        "precioOriginal": "$14.99",
+        "descripcion": "Esta barra solar viral está formulada con artemisa antiinflamatoria y extracto de té verde para calmar la piel y nutrirla. Formulado con sílice, ayuda a controlar los aceites naturales y la producción de sebo, dejando un acabado mate y eliminando el brillo graso no deseado. Se puede volver a aplicar fácilmente sobre la marcha, ¡e incluso sobre el maquillaje! La barra solar tiene un acabado no graso, no deja manchas blancas y no contiene fragancias artificiales ni aceites esenciales. Con habilidades para controlar el aceite, es más adecuado para pieles grasas o mixtas. Sin embargo, se puede usar para todo tipo de pieles, incluidas las pieles sensibles.",
+        "imagenPrincipal": "../images/CuidadodelaPiel/beauty of Joseon Sun Stick.png",
+        "imagenesSecundarias": [
+          "../images/CuidadodelaPiel/beauty of Joseon Sun Stick1.png",
+          "../images/CuidadodelaPiel/beauty of Joseon Sun Stick2.png",
+          "../images/CuidadodelaPiel/beauty of Joseon Sun Stick3.png"
+        ]
+      },
+      "5": {
+        "nombre": "COSRX - Advanced Snail 96 Mucin Power Essence",
+        "precioOriginal": "$24.99",
+        "descripcion": "Una esencia formulada con un 96% de filtrado de secreción de caracol. Repara la dermis, capaz de retardar el proceso de envejecimiento de los tejidos cutáneos y protege de la acción oxidante de los radicales libres, mejorando la elasticidad y textura de la piel. Repara, hidrata, abrillanta y mejora el tono de la piel. Ideal para todo tipo de piel. No deja sensación grasosa ni pegajosa. Combate la hiperpigmentación, cicatrices y sequedad. La secreción de caracol es humectante, emoliente, antimicrobiana, rica en antioxidantes, colágeno, elastina, entre otros.",
+        "imagenPrincipal": "../images/CuidadodelaPiel/COSRX - Advanced Snail 96 Mucin Power Essence.png",
+        "imagenesSecundarias": [
+          "../images/CuidadodelaPiel/COSRX - Advanced Snail 96 Mucin Power Essence1.png",
+          "../images/CuidadodelaPiel/COSRX - Advanced Snail 96 Mucin Power Essence2.png",
+          "../images/CuidadodelaPiel/COSRX - Advanced Snail 96 Mucin Power Essence3.png"
+        ]
+      },
+      "6": {
+        "nombre": "ARONIA VINEGAR Low Molecular Collagen Jelly",
+        "precioOriginal": "$15.99",
+        "descripcion": "Nuestro Colágeno de Bajo Peso Molecular con Vinagre de Aronia es una forma fácil y deliciosa de obtener tu dosis diaria de belleza desde el interior. Más del 90% de la capa dérmica de la piel está compuesta de colágeno, un componente vital para determinar cuán flexible, firme y elástica es nuestra piel. Para promover tu belleza interior, nuestra gelatina de colágeno está formulada con nuestro vinagre de aronia envejecido artesanalmente, colágeno de bajo peso molecular absorbible, granada rica en fitoestrógenos y nueve ingredientes cuidadosamente seleccionados beneficiosos para la piel, como ácido hialurónico, elastina, aminoácidos, vitaminas C, A, D, E, biotina y brócoli.",
+        "imagenPrincipal": "../images/Suplementos/ARONIA VINEGAR Low Molecular Collagen Jelly.png",
+        "imagenesSecundarias": [
+          "../images/Suplementos/ARONIA VINEGAR Low Molecular Collagen Jelly1.png",
+          "../images/Suplementos/ARONIA VINEGAR Low Molecular Collagen Jelly2.png"
+        ]
+      },
+      "7": {
+        "nombre": "Bellami Diet Jelly 25g",
+        "precioOriginal": "$12.99",
+        "descripcion": "¡Tu compañero ideal para una gestión de peso sin esfuerzo y eficaz! Ya sea que quieras mantener tus avances o iniciar tu camino, The Bellami Diet Jelly está diseñado para evitar que los carbohidratos se conviertan en grasa, favorecer una digestión suave y mantener tus niveles de energía estables durante todo el día. ¿El beneficio clave? Ayuda a evitar que tu cuerpo convierta los azúcares y carbohidratos en grasa. Y gracias a su textura tipo gelatina, ¡es un delicioso y sencillo placer para disfrutar!",
+        "imagenPrincipal": "../images/Suplementos/Bellami Diet Jelly 25g rosa.png",
+        "imagenesSecundarias": [
+          "../images/Suplementos/Bellami Diet Jelly 25g rosa1.png",
+          "../images/Suplementos/Bellami Diet Jelly 25g rosa2.png",
+          "../images/Suplementos/Bellami Diet Jelly 25g rosa3.png"
+        ]
+      }
+  }
+  

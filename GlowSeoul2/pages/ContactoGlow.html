@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowSeoul - Bienvenida</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="logo">
+            <h1>GlowSeoul</h1>
+            <p>Korean Beauty</p>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/DescubreGlow.html">Descubre Glow</a></li>
+                <li><a href="../pages/CuidadodelaPiel.html">Cuidado de la Piel</a></li>
+                <li><a href="../pages/Suplementos.html">Suplementos</a></li>
+                <li><a href="../pages/NuestraEsencia.html">Nuestra Esencia</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+    <div class="iconos-header">
+        <a href="../pages/usuario.html" id="icono-login" title="Iniciar sesión">👤</a>
+        <a href="#" id="abrir-carrito" title="Carrito">🛒</a>
+    </div>
+    </header>
+
+    <section class="vista_principal" style="background-image: url('../images/ContactoGlow/download.png');">
+        <div class="vista_principal_capa">
+            <div class="vista_principal_texto">
+                <h2>Contacto</h2>
+                <p>+593 99 582 5743</p>
+                <p>glowseoul@outlook.com</p>
+                <p>Quito, Ecuador</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active'); // Alterna la clase active
+        });
+    </script>
+    <script src="/js/carrito.js"></script>
+    <script src="../js/estilo.js"></script>
+</html>

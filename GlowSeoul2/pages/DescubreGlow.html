@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css"> <!-- Enlace a tu archivo CSS -->
+    <title>GlowSeoul - Contacto</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <h1>GlowSeoul</h1>
+            <p>Korean Beauty</p>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/CuidadodelaPiel.html">Ciudado de la piel</a></li>
+                <li><a href="../pages/Suplementos.html">Suplementos</a></li>
+                <li><a href="../pages/NuestraEsencia.html">Nuestra Esencia</a></li>
+                <li><a href="../pages/ContactoGlow.html">Contacto Glow</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
+        <div class="iconos-header">
+            <a href="../pages/usuario.html" id="icono-login" title="Iniciar sesión">👤</a>
+            <a href="#" id="abrir-carrito" title="Carrito">🛒</a>
+        </div>
+    </header>
+    <section id="reproductor">
+        <video id="medio" width="720" height="400" controls>
+            <source src="../videos/1.mp4" type="video/mp4">
+            <source src="videos/Post-PC.ogg" type="video/ogg">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+        
+    </section>
+
+    <div class="contacto-container">
+        <div class="imagen-container">
+            <img src="../images/DescubreGlow/Green korean skincare 🥗🍃.png" alt="Descripción de la imagen" class="imagen-grande">
+        </div>
+        <div class="texto-container">
+            <div class="formulario-container">
+                <h2>Deja tu comentario:</h2>
+                <label for="comentario" class="comentario_label">Escribe tu comentario aquí:</label>
+                <textarea id="comentario" class="comentario_area" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+            <div class="footer_contenedor">
+                <div class="footer_section">
+                    <h3>Recibe promociones exclusivas</h3>
+                    <p>¡Únete! Entérate antes que nadie sobre promociones y lanzamientos exclusivos.</p>
+                    <form class="subscribirse">
+                        <input type="email" placeholder="Ingresa tu email aquí*" required>
+                        <button type="submit">Unirse</button>
+                    </form>
+                </div>
+                
+                <div class="footer-section centered-contact">
+                    <h3>Contacto:</h3>
+                    <p>+593 99 582 5743</p>
+                    <p>glowseoul@outlook.com</p>
+                    <p>Quito, Ecuador</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            const menuToggle = document.getElementById('mobile-menu');
+            const navMenu = document.getElementById('nav-menu');
+        
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active'); // Alterna la clase active
+            });
+        </script>
+<script src="/js/carrito.js"></script>
+<script src="../js/estilo.js"></script>
+<script src="../js/video.js"></script>
+</body>
+</html>

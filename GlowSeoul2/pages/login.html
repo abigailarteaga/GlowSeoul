@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <style>
+        /* Estilos específicos para esta página */
+        body {
+            background: linear-gradient(135deg, #fadadd, #f8e1e7); /* Fondo degradado */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .formulario-contenedor {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .titulo-formulario {
+            font-size: 24px;
+            color: #8b7e6a;
+            margin-bottom: 20px;
+        }
+
+        .campo {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .campo label {
+            display: block;
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 5px;
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .campo input:focus {
+            outline: none;
+            border-color: #fadadd;
+        }
+
+        .boton-enviar {
+            background-color: #fadadd;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .boton-enviar:hover {
+            background-color: #e2b6c8;
+        }
+
+        .mensaje-error-general {
+            color: #d9534f;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        p a {
+            color: #8b7e6a;
+            text-decoration: none;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="formulario-contenedor">
+        <h2 class="titulo-formulario">Inicia Sesión</h2>
+        <form id="login-form" class="formulario">
+            <div class="campo">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" placeholder="Ingresa tu usuario" required>
+                <p class="error" id="error-usuario"></p>
+            </div>
+
+            <div class="campo">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" placeholder="Ingresa tu contraseña" required>
+                <p class="error" id="error-contrasena"></p>
+            </div>
+
+            <button type="submit" class="boton-enviar">Iniciar Sesión</button>
+            <p id="mensaje-error-login" class="mensaje-error-general"></p>
+        </form>
+        <p>¿No tienes cuenta? <a href="./registrarse.html">Regístrate aquí</a>.</p>
+        <div class="volver-inicio">
+            <a href="../index.html" title="Regresar al inicio">✖</a>
+        </div>
+        
+    </div>
+    <script src="../js/login.js"></script>
+
+</body>
+</html>

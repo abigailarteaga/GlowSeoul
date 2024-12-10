@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - GlowSeoul</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <style>
+        /* Mejora del Header */
+        
+
+        .carrito a {
+            font-size: 24px;
+            text-decoration: none;
+            color: #8b7e6a;
+            transition: color 0.3s ease;
+        }
+
+        .carrito a:hover {
+            color: #e2b6c8;
+        }
+
+        /* Estilo del Main */
+        .perfil-usuario {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .perfil-usuario h2 {
+            color: #8b7e6a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info-usuario p {
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-usuario p strong {
+            font-weight: bold;
+        }
+
+        .info-usuario p i {
+            font-size: 18px;
+            color: #fadadd;
+        }
+
+        .boton-enviar {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #fadadd;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton-enviar:hover {
+            background-color: #e2b6c8;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <h1>GlowSeoul</h1>
+            <p>Korean Beauty</p>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/DescubreGlow.html">Descubre Glow</a></li>
+                <li><a href="../pages/CuidadodelaPiel.html">Cuidado de la Piel</a></li>
+                <li><a href="../pages/Suplementos.html">Suplementos</a></li>
+                <li><a href="../pages/NuestraEsencia.html">Nuestra Esencia</a></li>
+                <li><a href="../pages/ContactoGlow.html">Contacto Glow</a></li>
+            </ul>
+        </nav>
+        <div class="carrito">
+            <a href="#" id="abrir-carrito">🛒</a>
+        </div>
+    </header>
+
+    <main class="perfil-usuario">
+        <h2>Perfil de Usuario</h2>
+        <div id="info-usuario" class="info-usuario">
+            <p><i class="icono">👤</i> <strong>Nombre:</strong> </p>
+            <p><i class="icono">📧</i> <strong>Correo:</strong> </p>
+            <p><i class="icono">📱</i> <strong>Teléfono:</strong> </p>
+            <p><i class="icono">👥</i> <strong>Usuario:</strong> </p>
+        </div>
+        <button id="cerrar-sesion" class="boton-enviar">Cerrar Sesión</button>
+
+    </main>
+
+    <footer>
+        <div class="footer_contenedor">
+            <div class="footer_section">
+                <h3>Recibe promociones exclusivas</h3>
+                <p>¡Únete! Entérate antes que nadie sobre promociones y lanzamientos exclusivos.</p>
+                <form class="subscribirse">
+                    <input type="email" placeholder="Ingresa tu email aquí*" required>
+                    <button type="submit">Unirse</button>
+                </form>
+            </div>
+            <div class="footer-section centered-contact">
+                <h3>Contacto:</h3>
+                <p>+593 99 582 5743</p>
+                <p>glowseoul@outlook.com</p>
+                <p>Quito, Ecuador</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/usuario.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="../js/estilo.js"></script>
+</body>
+</html>
